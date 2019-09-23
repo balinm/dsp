@@ -32,8 +32,12 @@ thinkplot.PrePlot(2)
 thinkplot.Pmfs([pmf, biased_pmf])
 thinkplot.Config(xlabel='Number of children', ylabel='PMF')
 
+
+
 unbiased_mean = pmf.Mean()
+
 biased_mean = biased_pmf.Mean()
+
 print('Unbiased mean: {0} \nBiased mean: {1}'.format(unbiased_mean,biased_mean))
 
 Unbiased mean: 1.024205155043831 
