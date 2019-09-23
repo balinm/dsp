@@ -86,15 +86,23 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> 
+p_frat = 1/ 125
+p_ident = 1 / 300
+elvis = thinkstats2.Pmf()
+elvis.Set('Fraternal', p_frat)
+elvis.Set('Identical', p_ident)
+elvis.Normalize()
+elvis.Prob('Identical') * 100
+The probabilty that Elvis was an indentical twin is 29.41%
 
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
-
+>> 
+The main difference between frequentist and Bayesian statistics is that frequentist statistics only considers an event to have a probability if that event is repeatable and random (the probability of the event is the long-term freqency of that event occuring), while Bayesian statistics considers any event to have a probabilty and incorporates prior proabilities in its determination.
 ---
 
 ## <a name="section-e"></a>5.  Optional Exercises
