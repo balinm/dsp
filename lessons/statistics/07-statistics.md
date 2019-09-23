@@ -103,6 +103,8 @@ How do frequentist and Bayesian statistics compare?
 
 >> 
 The main difference between frequentist and Bayesian statistics is that frequentist statistics only considers an event to have a probability if that event is repeatable and random (the probability of the event is the long-term freqency of that event occuring), while Bayesian statistics considers any event to have a probabilty and incorporates prior proabilities in its determination.
+
+
 ---
 
 ## <a name="section-e"></a>5.  Optional Exercises
